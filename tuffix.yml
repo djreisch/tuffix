@@ -66,9 +66,9 @@
       apt:
         pkg:
           - build-essential
-          - clang
-          - clang-tidy
-          - clang-format
+          - clang-11
+          - clang-tidy-11
+          - clang-format-11
           - lldb
 
     - name: G++ compiler (default version for target Ubuntu release)
