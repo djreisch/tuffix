@@ -2,7 +2,7 @@
 
 # Use  the default environment defined TUFFIXYML_SRC
 # (see bash (1) Parameter Expansion)
-TUFFIXYML_SRC=${TUFFIXYML_SRC:-"https://raw.githubusercontent.com/djreisch/tuffix/ubuntu-22.04/tuffix.yml"}
+TUFFIXYML_SRC=${TUFFIXYML_SRC:-"https://github.com/djreisch/tuffix/blob/virtualbox_7/tuffix.yml"}
 
 TUFFIXYML=/tmp/tuffix.$$.yml
 
